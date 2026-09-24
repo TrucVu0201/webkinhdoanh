@@ -8,7 +8,6 @@ h1, h2, h3, h4, h5, h6 {
     color: darkgoldenrod;   /* thay cho việc phải gắn class="yellow" từng chỗ */
 }
 
-/* ===== Link menu ngang ===== */
 a {
     font-size: 0.9em;
     color: blue;
@@ -20,7 +19,6 @@ a:hover {
     font-weight: bold;
 }
 
-/* ===== Thông tin liên hệ cuối trang ===== */
 address {
     font-size: 0.9em;
     font-style: normal;
@@ -28,14 +26,12 @@ address {
     text-transform: uppercase;
 }
 
-/* ===== Khối trích dẫn khách hàng ===== */
 blockquote {
     background-color: silver;
     margin: 15px;
     padding: 8px 12px;
 }
 
-/* ===== Danh sách sản phẩm: bullet ảnh + tên sản phẩm màu đỏ ===== */
 ul {
     list-style: circle url(hinh/Apple.jpg) outside;
 }
@@ -48,13 +44,11 @@ ul b {
     margin-bottom: 10px;
 }
 
-/* ===== Chữ "March Special!" ===== */
 .Special {
     color: rgb(153, 102, 6);
     font-weight: bold;
 }
 
-/* ===== 2 cột: sản phẩm bên trái, khung Messier bên phải ===== */
 .main-column {
     float: left;
     width: 550px;
@@ -70,7 +64,6 @@ ul b {
     float: right;
 }
 
-/* ===== Xả float trước khi qua phần Comments ===== */
 .comments-section {
     clear: both;
 }
