@@ -17,7 +17,7 @@
     <body>
         <div style = "width: 750px; margin: auto;">
         <div style = "text-align: center;"><img src = "hinh/DeLong.jpg"/></div>
-        <h1>Travel Expense Report</h1>
+        <h2>Travel Expense Report</h2>
         <hr size = "1" color = "black"/>
         <form id="expenseForm">
             <p>1) First Name: <input type = "text"> Last Name: <input type = "text"></p>
@@ -96,8 +96,10 @@
             </table>
 
             <p>6) Have you submitted your receipts? 
-                <input type = "radio" name = "receipts">Yes
-                <input type = "radio" name = "receipts">No
+                <input type = "radio" name = "receipts" id = "yes" value = "yes">
+                <label for = "yes">Yes</label>
+                <input type = "radio" name = "receipts" id = "no" value = "no">
+                <label for = "no">No</label>
             </p>
 
             <input type = "button" value = "Submit travel expenses" onclick = "return doSubmit();">
